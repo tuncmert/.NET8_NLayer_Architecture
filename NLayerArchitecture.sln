@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Repositories", "Reposit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Services", "Services\App.Services.csproj", "{7988BEF8-CDB6-47E4-8FE1-AFBEC40F2FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.API", "App.API\App.API.csproj", "{18BA8893-BC6B-4B15-BCA7-1BADE7EEA832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.API", "App.API\App.API.csproj", "{18BA8893-BC6B-4B15-BCA7-1BADE7EEA832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "App.Web\App.Web.csproj", "{46E93BC4-81CD-4429-ACE8-CCE3CEC97394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{18BA8893-BC6B-4B15-BCA7-1BADE7EEA832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18BA8893-BC6B-4B15-BCA7-1BADE7EEA832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18BA8893-BC6B-4B15-BCA7-1BADE7EEA832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E93BC4-81CD-4429-ACE8-CCE3CEC97394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E93BC4-81CD-4429-ACE8-CCE3CEC97394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E93BC4-81CD-4429-ACE8-CCE3CEC97394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E93BC4-81CD-4429-ACE8-CCE3CEC97394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
